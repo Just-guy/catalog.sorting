@@ -1,21 +1,15 @@
 <?
-if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
+if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 
 $arComponentDescription = array(
-	"NAME" => "Заготовка",
+	"NAME" => "Сортировка для catalog.section",
 	"DESCRIPTION" => "",
 	"ICON" => "",
 	"SORT" => 10,
 	"CACHE_PATH" => "Y",
 	"PATH" => array(
-		"ID" => "Custom", // for example "my_project"
+		"ID" => "custom", // for example "my_project"
 		"NAME" => "Кастомные"
-		/*"CHILD" => array(
-			"ID" => "", // for example "my_project:services"
-			"NAME" => "",  // for example "Services"
-		),*/
 	),
 	"COMPLEX" => "N",
 );
-
-?>
